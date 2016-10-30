@@ -18,11 +18,11 @@ public class Leetcode {
 
         Solution_15 sol = new Solution_15();
         long start = System.nanoTime();
-        for(int i =0; i<10;i++)
-            sol.threeSum(test);
+//        for(int i =0; i<1000;i++)
+//            sol.threeSum(test);
         System.out.println(sol.threeSum(test));
         long end = System.nanoTime();
-        long used = (end-start)/10;
+        long used = (end-start);
         System.out.println("used:"+ TimeUnit.NANOSECONDS.toMillis(used)+" ms");
 
     }
