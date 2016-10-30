@@ -4,6 +4,7 @@
 ## Easy
 ### \#371 Sum of Two Integers
 - 0ms
+- a^b == (a|b)&(~(a&b))
 
 ### \#121 Best Time to Buy and Sell Stock
 - 2ms (needs some improvements)
