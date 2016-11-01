@@ -10,10 +10,12 @@ public class Leetcode {
         long start = System.nanoTime();       //
         ////////////////////////////////////////
 
-
-        Solution_136 sol = new Solution_136();
-        System.out.println(sol.singleNumber(new int[]{1,2,2,3,3}));
-
+//        String str = "0123457890";
+//
+//        System.out.println(str.substring(3,5));
+        Solution_438 sol = new Solution_438();
+        System.out.println( sol.findAnagrams("aaaaa","aaa"));
+        System.out.println("abc".compareTo("abc"));
 
 
 
