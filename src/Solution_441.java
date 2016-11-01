@@ -4,12 +4,10 @@
 public class Solution_441 {
     public int arrangeCoins(int n) {
         int i = 1;
-        while(n>i){
+        while(n>=i){
             n-= i;
             i++;
         }
-
-        if(n > 0) return i-1;
         return i;
     }
 }
