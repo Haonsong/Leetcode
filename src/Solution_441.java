@@ -5,6 +5,8 @@ public class Solution_441 {
 
     public int arrangeCoins(int n) {
         // covert to long type to solve the overflow, (1+(1+(n-1)*d)*n/2 = sum of arithmetic seq
+        // after research sqrt is not O(log n)!!!!
+        // it's constant at 52 loops; O(1)
         return (int) (Math.sqrt( (2*(long)n) + 0.25) -0.5);
     }
 
