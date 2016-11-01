@@ -6,25 +6,21 @@ import java.util.concurrent.TimeUnit;
  */
 public class Leetcode {
     public static void main(String []args) {
-        long start = System.nanoTime();
+        ////////////////////////////////////////
+        long start = System.nanoTime();       //
+        ////////////////////////////////////////
 
 
-
-        Solution_338 sol = new Solution_338();
-
-
-        int[] solution = sol.countBits(16);
-        for(int i: solution)
-        System.out.print(i+"\t");
-        System.out.println();
+        Solution_136 sol = new Solution_136();
+        System.out.println(sol.singleNumber(new int[]{1,2,2,3,3}));
 
 
 
 
-
-
-        long end = System.nanoTime();
-        long used = (end-start);
-        System.out.println("used:"+ TimeUnit.NANOSECONDS.toMillis(used)+" ms");
+        ////////////////////////////////////////////////////////////////////////////////
+        long end = System.nanoTime();                                                 //
+        long used = (end-start);                                                      //
+        System.out.println("used:"+ TimeUnit.NANOSECONDS.toMillis(used)+" ms");       //
+        ////////////////////////////////////////////////////////////////////////////////
     }
 }
