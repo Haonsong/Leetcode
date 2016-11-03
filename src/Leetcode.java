@@ -13,10 +13,8 @@ public class Leetcode {
 //        String str = "0123457890";
 //
 //        System.out.println(str.substring(3,5));
-        Solution_438 sol = new Solution_438();
-        System.out.println( sol.findAnagrams("aaaaa","aaa"));
-        System.out.println("abc".compareTo("abc"));
-
+        Solution_388 sol = new Solution_388();
+        System.out.println( sol.lengthLongestPath("aaaaa"));
 
 
         ////////////////////////////////////////////////////////////////////////////////
