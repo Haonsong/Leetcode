@@ -13,8 +13,10 @@ public class Leetcode {
 //        String str = "0123457890";
 //
 //        System.out.println(str.substring(3,5));
-        Solution_388 sol = new Solution_388();
-        System.out.println( sol.lengthLongestPath("aaaaa"));
+//        Solution_388 sol = new Solution_388();
+//        System.out.println( sol.lengthLongestPath("aaaaa"));
+
+
 
 
         ////////////////////////////////////////////////////////////////////////////////
